@@ -21,11 +21,11 @@ $(document).ready(function() {
 
 
     $("form#add").submit(function(event) {
-      var number1 = parseInt($("#spice").val());
-      var number2 = parseInt($("#vacation").val());
-      var number3 = parseInt($("#adventure").val());
-      var number4 = parseInt($("#excites").val());
-      var number5 = parseInt($("#length").val());
+      var number1 = parseInt(spice);
+      var number2 = parseInt(vacation);
+      var number3 = parseInt(adventure);
+      var number4 = parseInt(excites);
+      var number5 = parseInt(length);
       var result = (add(number1, number2, number3, number4, number5));
       $("#output").text(result);
       event.preventDefault();
