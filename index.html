@@ -17,7 +17,7 @@
         </div>
         <div class="panel-body">
           <div id="blanks">
-            <form>
+            <form id="add">
               <h3>Client Information:</h3>
               <div class="form-group">
                 <label for="clientName">Your name</label>
@@ -36,19 +36,19 @@
               <h4>1. If you could be any one of these three spices, which would it be?!</h4>
               <div class="radio">
                 <label>
-                  <input type="radio" name="spice" value="1">
+                  <input id="spice" type="radio" name="spice" value="1">
                   Cumin
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="spice" value="2">
+                  <input id="spice" type="radio" name="spice" value="2">
                   Cloves
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="spice" value="3">
+                  <input id="spice" type="radio" name="spice" value="3">
                   Ginger
                 </label>
               </div>
@@ -56,19 +56,19 @@
               <h4>2. Which is your idea of a vacation?</h4>
               <div class="radio">
                 <label>
-                  <input type="radio" name="vacation" value="1">
+                  <input id="vacation" type="radio" name="vacation" value="1">
                   Exploring the local history
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="vacation" value="2">
+                  <input id="vacation" type="radio" name="vacation" value="2">
                   Enjoying a vibrant and active night life
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="vacation" value="3">
+                  <input id="vacation" type="radio" name="vacation" value="3">
                   Full cultural emersion
                 </label>
               </div>
@@ -76,19 +76,19 @@
               <h4>3. What adventure level that you seek</h4>
               <div class="radio">
                 <label>
-                  <input type="radio" name="adventure" value="1">
+                  <input id="adventure" type="radio" name="adventure" value="1">
                   A simmer
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="adventure" value="2">
+                  <input id="adventure" type="radio" name="adventure" value="2">
                   A slow boil
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="adventure" value="3">
+                  <input id="adventure" type="radio" name="adventure" value="3">
                   Roaring hot and overflowing!
                 </label>
               </div>
@@ -96,19 +96,19 @@
               <h4>4. Of these, which excites you the most?</h4>
               <div class="radio">
                 <label>
-                  <input type="radio" name="excites" value="1">
+                  <input id="excites" type="radio" name="excites" value="1">
                   Food
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="excites" value="2">
+                  <input id="excites" type="radio" name="excites" value="2">
                   Sports
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="excites" value="3">
+                  <input id="excites" type="radio" name="excites" value="3">
                   The outdoors
                 </label>
               </div>
@@ -116,25 +116,28 @@
               <h4>5. The length of stay you are looking for</h4>
               <div class="radio">
                 <label>
-                  <input type="radio" name="length" value="1">
+                  <input id="length" type="radio" name="length" value="1">
                   Under a week
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="length" value="2">
+                  <input id="length" type="radio" name="length" value="2">
                   A week, give or take a few days
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="length" value="3">
+                  <input id="length" type="radio" name="length" value="3">
                   Several weeks
                 </label>
               </div>
 
               <button type="submit" class="btn">Where should you go?!</button>
             </form>
+            <div id="output">
+
+            </div>
           </div>
           <div id="confirmation">
             <h2><span class="clientName"></span> , here is your suggested next destination!</h2>
