@@ -17,20 +17,30 @@
         </div>
         <div class="panel-body">
           <div id="blanks">
-            <form class="survey">
+            <form>
+              <h3>Client Information:</h3>
               <div class="form-group">
-                <label for="name">Your name</label>
-                <input id="question1" class="form-control" type="text">
+                <label for="clientName">Your name</label>
+                <input id="clientName" class="form-control" type="text" placeholder="John / Jane Doe">
               </div>
               <div class="form-group">
-                <label for="email">Your email address</label>
-                <input id="question2" class="form-control" type="email">
+                <label for="clientEmail">Your email address</label>
+                <input id="clientEmail" class="form-control" type="email" placeholder="J.Doe@mailservice.com">
               </div>
               <div class="form-group">
-                <label for="question3">Date you are looking to depart</label>
-                <input id="question3" class="form-control" type="date">
+                <label for="appointmentDate">Date you are looking to depart</label>
+                <input id="appointmentDate" class="form-control" type="date">
               </div>
+              <h3>Survey Questions:</h3>
+
+              <button type="submit" class="btn">Where should you go?!</button>
             </form>
+          </div>
+          <div id="confirmation">
+            <h2><span class="clientName"></span> , here is your suggested next destination!</h2>
+            <p>
+              <strong>Departure Date:</strong> <span class="appointmentDate"></span><br>
+            </p>
           </div>
         </div>
       </div>
