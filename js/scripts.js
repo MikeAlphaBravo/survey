@@ -8,6 +8,12 @@ $(document).ready(function() {
     $(".clientEmail").text(clientEmailInput);
     $(".appointmentDate").text(appointmentDateInput);
 
+    var flavor = $("input:radio[name=flavor]:checked").val();
+    var flavor = $("input:radio[name=flavor]:checked").val();
+    var flavor = $("input:radio[name=flavor]:checked").val();
+    var flavor = $("input:radio[name=flavor]:checked").val();
+    var flavor = $("input:radio[name=flavor]:checked").val();
+
     $("#confirmation").show();
     $("#emptyForm").hide();
     event.preventDefault();
