@@ -1,22 +1,18 @@
-# _{Application Name}_
+# _{Vacation-O-meteR}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{A vacation survey}, {June 10 2017}_
 
-#### By _**{List of contributors}**_
+#### By _**{Michael Allen Brooks}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{My Website has been written for personal purposes only and is not for profit.  Use of simple HTML, CSS, Bootstrap, JQuery and Javascript have been used to create a dynamic yet simple form to input answers and return a vacation destination recommendation. }_
 
-## Setup/Installation Requirements
+## Just follow this link to view page or developer information:
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+_{https://mikealphabravo.github.io/portfolio/index.html}_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_{Bootstrap and JQuery codes are included in the file structure and refered to in the HTML but make sure latest versions are in place.}_
 
 ## Known Bugs
 
@@ -24,14 +20,18 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{If you find any bugs or problems with the website please don't hesitate to let me know in the contacts link or here at MikeAlphaBravo1982@gmail.com.}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _Github.com_
+* _HTML and CSS in Atom_
+* _Bootstrap_
+* _JQuery_
+* _Javascript_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{This software is licensed under the MIT license.}*
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_{Michael Allen Brooks}_**

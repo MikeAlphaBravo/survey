@@ -6,6 +6,10 @@
   border-radius: 5px 5px 5px 5px;
 }
 
+h1 {
+  text-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+}
+
 .container {
   padding-top: 20px;
 }
@@ -17,4 +21,5 @@ form {
 .destination {
   display: none;
   color: green;
+  text-shadow: 1px 2px 6px rgba(0,0,0,0.5);
 }
