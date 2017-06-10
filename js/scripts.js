@@ -1,8 +1,3 @@
-// var add = function(number1, number2, number3, number4, number5) {
-//   return number1 + number2 + number3 + number4 + number5;
-// };
-
-
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
     var clientNameInput = $("input#clientName").val();
@@ -17,32 +12,18 @@ $(document).ready(function() {
     var vacation = parseInt($("input:radio[name=vacation]:checked").val());
     var adventure = parseInt($("input:radio[name=adventure]:checked").val());
     var excites = parseInt($("input:radio[name=excites]:checked").val());
-    var length = parseInt($("input:radio[name=length]:checked").val());
+    var timeSpan = parseInt($("input:radio[name=timeSpan]:checked").val());
 
-    var scoreTotal = spice + vacation + adventure + excites + length;
+    var scoreTotal = spice + vacation + adventure + excites + timeSpan;
 
-    // if (scoreTotal === 5) {
-    //   $(".destination1").show();
-    // }
-
-//    $("form#add").submit(function(event) {
-//      var number1 = parseInt(spice);
-//      var number2 = parseInt(vacation);
-//      var number3 = parseInt(adventure);
-//      var number4 = parseInt(excites);
-//      var number5 = parseInt(length);
-//      var result = (add(number1, number2, number3, number4, number5));
-
-//      if (result === 5) {
-//        $(".destination1").show();
-//      }
-//    $("#output").text(scoreTotal);
-
-
-
+    $(".destination").hide();
     $("#confirmation").show();
-    if (scoreTotal === 5) {
+    if (scoreTotal === 5 || scoreTotal === 6) {
       $("#destination1").show();
+    } else if (scoreTotal === 7 || scoreTotal === 8) {
+      $("#destination2").show();
+    } else if (scoreTotal === 9 || scoreTotal === 10 || scoreTotal === 11) {
+      $("#destination3").show();
     }
     event.preventDefault();
 

@@ -3,6 +3,7 @@
   background-color: #efefef;
   padding: 10px;
   margin-top: 10px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .container {
@@ -15,4 +16,5 @@ form {
 
 .destination {
   display: none;
+  color: green;
 }
