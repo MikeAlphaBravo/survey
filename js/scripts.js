@@ -22,7 +22,7 @@ $(document).ready(function() {
       $("#destination1").show();
     } else if (scoreTotal === 7 || scoreTotal === 8) {
       $("#destination2").show();
-    } else if (scoreTotal === 9 || scoreTotal === 10 || scoreTotal === 11) {
+    } else if (scoreTotal >= 9) {
       $("#destination3").show();
     }
     event.preventDefault();
